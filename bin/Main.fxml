@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="790.0" style="-fx-background-color: #2E3348;" stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <AnchorPane layoutY="99.0" prefHeight="449.0" prefWidth="790.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <TextField fx:id="login_field" layoutX="320.0" layoutY="154.0" promptText="Login" style="-fx-background-color: fafafa; -fx-border-color: silver; -fx-border-radius: 10;" />
+            <PasswordField fx:id="password_field" layoutX="320.0" layoutY="225.0" promptText="password" style="-fx-background-color: faafafa; -fx-border-color: silver; -fx-border-radius: 10;" />
+            <Label layoutX="291.0" layoutY="51.0" prefHeight="46.0" prefWidth="209.0" text="authorization" textFill="#646861">
+               <font>
+                  <Font name="Ink Free" size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="auth_sign_In_button" layoutX="332.0" layoutY="317.0" mnemonicParsing="false" prefHeight="10.0" prefWidth="128.0" style="-fx-background-color: #2E3348;" text="login" textAlignment="CENTER" textFill="#f5f4f4" textOverrun="LEADING_ELLIPSIS">
+               <font>
+                  <Font name="Ink Free" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="216.0" layoutY="14.0" text="TEST APPLICATION" textFill="#e41818">
+         <font>
+            <Font name="Ink Free" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="login_sign_up_button" layoutX="634.0" layoutY="44.0" mnemonicParsing="false" prefHeight="10.0" prefWidth="128.0" style="-fx-background-color: #F39C63;" text="registration" textAlignment="CENTER" textFill="#f5f4f4">
+         <font>
+            <Font name="Ink Free" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
